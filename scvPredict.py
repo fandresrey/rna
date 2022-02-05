@@ -56,6 +56,7 @@ def record():
     waveFile.setframerate(RATE)
     waveFile.writeframes(b''.join(frames))
     waveFile.close()
+    predic()
 
 
 def predic():
